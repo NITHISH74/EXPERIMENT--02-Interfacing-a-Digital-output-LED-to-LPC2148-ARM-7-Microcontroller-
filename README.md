@@ -157,6 +157,6 @@ int main()
 
  
 ## Result :
-Interfacing a digital output with ARM microcontroller is executed 
+Interfacing a digital output with ARM microcontroller is executed.
 
 
