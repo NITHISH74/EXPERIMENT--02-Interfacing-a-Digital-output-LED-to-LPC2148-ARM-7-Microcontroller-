@@ -115,6 +115,8 @@ Figure -11 Hex file for simulation
 Step 9: Select the hex file from the Kiel program folder and import the program in to the microcontroller as shown in figure 11 ,  debug and if no errors in connections are found, run the VSM simulation to view the output.
 
 
+
+## Kiel - Program for LED blinking ON  and  OFF (blinking)
 ## CODING:
 ```
 #include <lpc214x.h>
@@ -146,16 +148,14 @@ int main()
 }
 }
 ```
-## Kiel - Program for LED blinking ON  and  OFF (blinking)
-
 ## Output screen shots :
 ### LED IS OFF:
-![0](https://user-images.githubusercontent.com/94164665/192090421-d83ca81a-1bff-44b0-8c2e-69b572e92223.jpg)
-
+![image](https://user-images.githubusercontent.com/94164665/192104667-9032546c-6c03-409b-92f3-b830a980d5d6.png)
 ### LED IS ON:
-![1](https://user-images.githubusercontent.com/94164665/192090380-770e1f62-6fee-4910-b63a-91e3c94384f1.jpg)
+![image](https://user-images.githubusercontent.com/94164665/192104689-3292878e-5857-40e7-b48c-a01451c51fad.png)
+### Export pdf:
+![image](https://user-images.githubusercontent.com/94164665/192104778-f18378fc-5b34-4338-8fa6-4789a43a9f4c.png)
 
- 
 ## Result :
 Interfacing a digital output with ARM microcontroller is executed.
 
