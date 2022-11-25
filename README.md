@@ -7,12 +7,9 @@ To Interface a Digital output (LED) to LPC2148 ARM 7 and write a blink code
 Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
 ## Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
-
 What is an ARM7 Processor?
 ARM7 processor is commonly used in embedded system applications. Also, it is a balance among classic as well as new-Cortex sequence. This processor is tremendous in finding the resources existing on the internet with excellence documentation offered by NXP Semiconductors. It suits completely for an apprentice to obtain in detail hardware & software design implementation.
 LPC2148 Microcontroller
- The LPC2148 microcontroller is designed by Philips (NXP Semiconductor) with several in-built features & peripherals. Due to these reasons, it will make more reliable as well as the efficient option for an application developer. LPC2148 is a 16-bit or 32-bit microcontroller based on ARM7 family.
-Features of LPC2148
 The main features of LPC2148 include the following.
 •	The LPC2148 is a 16 bit or 32 bit ARM7 family based microcontroller and available in a small LQFP64 package.
 •	ISP (in system programming) or IAP (in application programming) using on-chip boot loader software.
@@ -28,10 +25,6 @@ The main features of LPC2148 include the following.
 •	5 volts tolerant quick general purpose Input/output pins in a small LQFP64 package.
 •	Outside interrupt pins-21.
 •	60 MHz of utmost CPU CLK-clock obtainable from the programmable-on-chip phase locked loop by resolving time is 100 μs.
-•	The incorporated oscillator on the chip will work by an exterior crystal that ranges from 1 MHz-25 MHz
-•	The modes for power-conserving mainly comprise idle & power down.
-•	For extra power optimization, there are individual enable or disable of peripheral functions and peripheral CLK scaling.
- 
 ![image](https://user-images.githubusercontent.com/36288975/189275248-cf9f4001-be11-4773-ba86-517bec062fa5.png)
 
 
@@ -49,9 +42,6 @@ Select the device database. Default is Software Packs. You can have various loca
 4.	Click OK.
 5.	Click on the new file option and save the file using save option with .C extension 
 
-
-
-For creating the simulation environment in Proteus suite 
 Starting New Design
 Step 1: Open ISIS software and select New design in  File menu
  ![image](https://user-images.githubusercontent.com/36288975/189275283-128a9e18-c1b4-4725-90fc-086361f0b0f1.png)
@@ -75,29 +65,25 @@ Step 4:To Select components, Click on the component mode button.
 Figure -05 Component Mode
 Step 5:Click On Pick from Libraries. It shows the categories of components available and a search option to enter the part name.
  
- ![image](https://user-images.githubusercontent.com/36288975/189275326-3eea00d3-6ea3-40e6-a5b2-97d80db0f1aa.png)
-
-  Figure -06 Pick from Libraries
-
 Step 6: Select the components from categories or type the part name in Keywords text box.
  Place all the required components and route the wires i.e, make connections.
 Either selection mode above the component mode or component mode allows to connect through wires. Left click from one terminal to other to make connection. Double right-click on the connected wire or the component to remove connection or the component respectively.
  
  ![image](https://user-images.githubusercontent.com/36288975/189275342-2365f361-05d0-4fc0-8b44-3934b8b03ea7.png)
 
- Figure -07 Component Properties Selection
+ Figure -06 Component Properties Selection
 Double click on the component to edit the properties of the components and click on Ok.
 Step 8: Select ARM microcontroller form the library – pick part 
 ![image](https://user-images.githubusercontent.com/36288975/189275370-90534a4c-8524-4931-9978-291200f0fd2e.png)
 
  
-Figure -08 LPC2138/48 selection
+Figure -07 LPC2138/48 selection
 Step 7:
 
 After making necessary connections click on debug from 
 ![image](https://user-images.githubusercontent.com/36288975/189275403-c1506ad6-7795-40f9-b878-9b83e12263b9.png)
 
- Figure -09 Keywords Textbox
+ Figure -08 Keywords Textbox
 Example shows selection of push button. Select the components accordingly.
  
  Step 8: The selected components will appear in the devices list. Select the component and place it in the design sheet by left-click., post which select all the associated components as shown in the circuit diagram below 
@@ -105,12 +91,12 @@ Example shows selection of push button. Select the components accordingly.
  ![image](https://user-images.githubusercontent.com/36288975/189275426-09eb6d0d-aab0-4d8a-8ef8-31288fbfe2a1.png)
 ![image](https://user-images.githubusercontent.com/36288975/189275464-1074d010-f106-4615-9959-68ed1a271502.png)
 
-Figure -10 Circuit diagram of LED interface on port -0
+Figure -09 Circuit diagram of LED interface on port -0
 
 
  ![image](https://user-images.githubusercontent.com/36288975/189275481-7466fd00-fe0b-4781-93b8-39b551cdcc36.png)
 
-Figure -11 Hex file for simulation 
+Figure -10 Hex file for simulation 
 
 Step 9: Select the hex file from the Kiel program folder and import the program in to the microcontroller as shown in figure 11 ,  debug and if no errors in connections are found, run the VSM simulation to view the output.
 
